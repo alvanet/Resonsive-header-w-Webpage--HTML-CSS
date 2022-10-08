@@ -1,0 +1,40 @@
+html, body {
+	min-height: 100%;
+	background: rgb(88, 118, 159);
+	color: rgb(50, 49, 56);
+}
+ 
+.header {
+background-color: black;
+
+  padding: 10px;
+  color: #008080;
+  font-size: 30px;
+    }
+  
+  .wrap{
+    background-color: rgb(44, 50, 71);  
+  }
+  
+  .left{
+    float:left;
+    width:50%;
+    color: #16e4e4;
+  }
+  
+  .rotate {
+   transform: translateX(90%) translateY(90%) rotate(90deg);
+   font-size: 25px;
+  }
+  
+  .right {
+    height: 400px;
+    width:85%;
+    float:left;
+   
+    background-color: lightgray;
+  }
+  
+  .right p{
+    padding: 0 20px;
+  }
