@@ -1,40 +1,83 @@
-html, body {
-	min-height: 100%;
-	background: rgb(88, 118, 159);
-	color: rgb(50, 49, 56);
+body {
+  min-height: 100%;
+  background: rgb(243, 245, 248);
+  color: rgb(50, 49, 56);
 }
- 
-.header {
-background-color: black;
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0px;
+  font-family: "segoe ui";
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #1177ca;
+  position: relative;
+}
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+}
+.nav > .nav-links {
+  font-size: 18px;
+  display: inline;
+  float: right;
+}
+.nav > .nav-links > ul li a {
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+  display: block;
+  padding: 0 8px;
+  text-decoration: none;
+}
+.nav > .nav-links > ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin-top: 5px;
+}
+.nav > .nav-links > ul li {
+  display: inline-block;
+  background-color: #1177ca;
+}
+.nav > .nav-links > ul li:hover {
+  background-color: #0b65af;
+  border-radius: 5px;
+}
+.header {
+  display: flexbox;
+  background-color: black;
   padding: 10px;
-  color: #008080;
+  color: #dc4109;
   font-size: 30px;
-    }
-  
-  .wrap{
-    background-color: rgb(44, 50, 71);  
-  }
-  
-  .left{
-    float:left;
-    width:50%;
-    color: #16e4e4;
-  }
-  
-  .rotate {
-   transform: translateX(90%) translateY(90%) rotate(90deg);
-   font-size: 25px;
-  }
-  
-  .right {
-    height: 400px;
-    width:85%;
-    float:left;
-   
-    background-color: lightgray;
-  }
-  
-  .right p{
-    padding: 0 20px;
-  }
+}
+
+.left {
+  float: left;
+  width: 50%;
+  color: #091212;
+}
+
+.rotate {
+  transform: translateX(90%) translateY(90%) rotate(90deg);
+  font-size: 25px;
+}
+
+.right {
+  height: 400px;
+  width: 85%;
+  float: left;
+  background-color: lightgray;
+}
+
+.right p {
+  padding: 0 20px;
+}
